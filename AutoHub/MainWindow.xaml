@@ -1,0 +1,14 @@
+﻿<Window x:Name="AutoHub" x:Class="AutoHub.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:AutoHub"
+        mc:Ignorable="d"
+        Title="AutoHub" Height="450" Width="500" ResizeMode="CanMinimize" WindowStartupLocation="CenterScreen" Background="Black">
+    <Grid>
+        <Button Content="Minesweeper 7" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" Width="103" Height="61" Click="Button_Click_Sweeper7" Background="#FFDDDDDD" UseLayoutRounding="False"/>
+        <Button Content="Minesweeper 10" HorizontalAlignment="Left" Margin="118,10,0,0" VerticalAlignment="Top" Width="103" Height="61" Click="Button_Click_Sweeper10"/>
+
+    </Grid>
+</Window>
